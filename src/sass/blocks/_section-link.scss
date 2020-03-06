@@ -1,0 +1,28 @@
+.section-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px;
+
+  font-size: 20px;
+  line-height: 25px;
+
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, $main-color 0%, $secondary-color 100%) repeat scroll 0 0;
+  background-color: $main-color;
+  background-size: 200% 100%;
+  cursor: pointer;
+
+  transition: background-position 0.3s ease-in-out;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus,
+  &:hover {
+    background-position-x: 50%;
+  }
+}

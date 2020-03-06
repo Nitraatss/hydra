@@ -1,0 +1,18 @@
+.posts-pool {
+  @include front-container;
+}
+
+.posts-pool__grid {
+  display: grid;
+  margin-bottom: 10px;
+
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+@media screen and (max-width: 639px) {
+  .posts-pool__grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}

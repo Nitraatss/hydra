@@ -1,0 +1,53 @@
+.site-points {
+  @include front-container;
+}
+
+.site-points {
+  padding-bottom: 0;
+}
+
+.site-points__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.site-points__item {
+  position: relative;
+
+  margin-bottom: 10px;
+  padding: 5px 10px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 1px;
+    height: 100%;
+
+    background-color: $main-color;
+  }
+}
+
+.site-points__description {
+  max-width: 100%;
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  word-wrap: break-word;
+
+  img {
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
