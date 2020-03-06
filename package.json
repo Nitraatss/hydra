@@ -54,6 +54,7 @@
     "object-fit-images": "3.2.4",
     "sanitize.css": "11.0.0",
     "stickyfilljs": "2.1.0",
+    "typed.js": "2.0.11",
     "vanilla-lazyload": "13.0.1",
     "webkit-line-clamp": "1.2.2"
   },
