@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="address=no">
+    <title>Text stuff - Hydra</title>
+    <meta name="description" content="Hail texts on Hydra!">
+    <meta name="keywords" content="hydra, texts">
+    <link rel="preload" href="/fonts/FiraCode-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/FiraCode-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/FiraCode-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/FiraCode-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  </head>
+
+  <body>
+    <header class="main-header sticky">
+      <div class="main-header__top">
+        <a class="main-header__main-logo main-logo" href="/">HYDRA</a>
+      </div>
+      <div class="main-header__bottom">
+        <nav class="main-header__navigation">
+          <button class="main-header__mobile-burger" type="button">
+            TOGGLE MENU!
+            <svg viewBox="0 0 25 25" width="25" height="25" aria-hidden="true">
+              <title>Burger!</title>
+              <use xlink:href="#burger"></use>
+            </svg>
+            <svg viewBox="0 0 25 25" width="25" height="25" aria-hidden="true">
+              <title>Close it</title>
+              <use xlink:href="#cross"></use>
+            </svg>
+          </button>
+          <ul class="main-header__links-list">
+            <li class="main-header__links-item main-header__links-item--active">
+              <a href="#">
+                Reading
+              </a>
+              <ul class="main-header__dropdown">
+                <li>
+                  <a href="#">FBI</a>
+                </li>
+                <li>
+                  <a href="#">Oni chan</a>
+                </li>
+                <li>
+                  <a href="#">Senpai</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-header__links-item">
+              <a href="#">
+                Videos
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="main-header__toggler" type="button">
+          Display search
+          <svg viewBox="0 0 25 25" width="25" height="25" aria-hidden="true">
+            <title>Wanna search?</title>
+            <use xlink:href="#search"></use>
+          </svg>
+        </button>
+        <form class="main-header__search-form" method="POST" action="/">
+          <button class="main-header__search-button" type="submit">
+            Search it!
+            <svg viewBox="0 0 25 25" width="25" height="25" aria-hidden="true">
+              <title>Search</title>
+              <use xlink:href="#search"></use>
+            </svg>
+          </button>
+          <input class="main-header__search-input" type="text" placeholder="Search for something" required>
+          <button class="main-header__hiddler" type="button">
+            Hide search
+            <svg viewBox="0 0 25 25" width="25" height="25" aria-hidden="true">
+              <title>Close</title>
+              <use xlink:href="#cross"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <h1 class="visually-hidden">Reading on Hydra</h1>
+      <section class="readings-pool">
+        <h2 class="readings-pool__section-title section-title">
+          <span class="visually-hidden">Read it, if you want</span>
+          <span class="section-title__typed" aria-hidden="true"></span>
+        </h2>
+        <ul class="readings-pool__categories">
+          <li class="readings-pool__category"><a class="readings-pool__category-link" href="#">Category 1</a></li>
+          <li class="readings-pool__category"><a class="readings-pool__category-link" href="#">Category 2</a></li>
+          <li class="readings-pool__category"><a class="readings-pool__category-link" href="#">Category 3</a></li>
+          <li class="readings-pool__category"><a class="readings-pool__category-link" href="#">Category 4</a></li>
+        </ul>
+        <div class="readings-pool__list">
+          <article class="readings-pool__reading-preview reading-preview">
+            <div class="reading-preview__intro">
+              <h3 class="reading-preview__title"><a href="#">Arrrr! It's title</a></h3>
+              <a class="reading-preview__category" href="">Category 1</a>
+            </div>
+            <div class="reading-preview__summary">
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a class="reading-preview__main-link" href="#">Read it</a>
+            </div>
+          </article>
+          <article class="readings-pool__reading-preview reading-preview">
+            <div class="reading-preview__intro">
+              <h3 class="reading-preview__title"><a href="#">Arrrr! It's title</a></h3>
+              <a class="reading-preview__category" href="">Category 1</a>
+            </div>
+            <div class="reading-preview__summary">
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a class="reading-preview__main-link" href="#">Read it</a>
+            </div>
+          </article>
+          <article class="readings-pool__reading-preview reading-preview">
+            <div class="reading-preview__intro">
+              <h3 class="reading-preview__title"><a href="#">Arrrr! It's title</a></h3>
+              <a class="reading-preview__category" href="">Category 1</a>
+            </div>
+            <div class="reading-preview__summary">
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a class="reading-preview__main-link" href="#">Read it</a>
+            </div>
+          </article>
+        </div>
+        <button class="readings-pool__section-link section-link" type="button">MORE!</button>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Wow... You scrolled down here, must be really bored<p>
+    </footer>
+  </body>
+</html>

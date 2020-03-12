@@ -7,12 +7,15 @@
   margin: 0 auto;
   padding: 10px 10px;
 
+  font-weight: 500;
   font-size: 20px;
   line-height: 25px;
+  color: white;
 
   background: rgba(0, 0, 0, 0) linear-gradient(90deg, $main-color 0%, $secondary-color 100%) repeat scroll 0 0;
   background-color: $main-color;
   background-size: 200% 100%;
+  border: 0;
   cursor: pointer;
 
   transition: background-position 0.3s ease-in-out;
